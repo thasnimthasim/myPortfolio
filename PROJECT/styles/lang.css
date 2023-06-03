@@ -1,0 +1,21 @@
+/*.lang{
+  display: flex;
+}*/
+.c{
+
+  display: flex;
+  justify-content: center;
+  
+  background-color: lightpink;
+}
+.c-hash{
+background-color: rgb(235, 235, 143);
+display flex;
+justify-content: center;
+}
+.lang{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+

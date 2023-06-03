@@ -1,0 +1,25 @@
+
+  p
+  {
+    font-family: Arial;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .para1{
+    font-weight: bold;
+    font-size: 28px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    
+  }
+  .para2{
+    margin-bottom: 20px;
+    
+    
+  }
+  .para3{
+  
+    color: rgb(58, 58, 233);
+  }
+

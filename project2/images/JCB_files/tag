@@ -1,0 +1,40 @@
+BrightTag.site('sPLaZHQ',function(s){
+s.errors(1683432951072);
+s.dbe('url', 'location.href',{pageId:2433864});
+s.store([{name:'btpdb.sPLaZHQ.dGZjLjc0Nzg5MTM',value:'UkVRVUVTVFMuMw',expires:1714968951072}]);
+s.events.bind('jcb - send price request lead submission','.jcb-btn-primary.completed','mousedown',{pageId:4044769});
+s.events.bind('jcb - $1000 discount lead submission','.submit','DIRECT/click',{pageId:4044769});
+s.events.bind('jcb - find a dealer search button click','.ctas-group','mousedown',{pageId:4044769});
+s.events.bind('jcb - downloadable pdf clicks','a[href*\x3d\x22wp-content/uploads\x22]','click',{pageId:4044769});
+s.events.bind('jcb - chat engagement','a:contains(\x22CLICK TO CHAT\x22)','click',{pageId:4044769});
+s.when('bt_data(\x27url\x27).indexOf(\x22/en-us/dealer-locator\x22) \x3e -1',function(){
+s.events.on('jcb - find a dealer search button click').fire(7478535);
+});
+s.events.on('jcb - downloadable pdf clicks').fire(7478538);
+s.when('bt_data(\x27url\x27).indexOf(\x22jcb.com\x22) \x3e -1',function(){
+s.events.on('jcb - send price request lead submission').fire(7478540);
+});
+s.when('(bt_data(\x27url\x27).indexOf(\x22jcb.rmwd.us\x22) \x3e -1 || bt_data(\x27url\x27).indexOf(\x22jcbvirtualexperience.com\x22) \x3e -1)',function(){
+s.events.on('jcb - $1000 discount lead submission').fire(7478544);
+});
+s.when('(bt_data(\x27url\x27).indexOf(\x22jcbvirtualexperience.com\x22) \x3e -1 || bt_data(\x27url\x27).indexOf(\x22jcb.rmwd.us\x22) \x3e -1)',function(){
+s.events.on('jcb - chat engagement').fire(7478548);
+});
+s.when('(bt_data(\x27url\x27).indexOf(\x22jcbvirtualexperience.com\x22) \x3e -1 || bt_data(\x27url\x27).indexOf(\x22jcb.rmwd.us\x22) \x3e -1)',function(){
+s.events.on('jcb - chat engagement').fire(7478909);
+});
+s.when('bt_data(\x27url\x27).indexOf(\x22jcb.com\x22) \x3e -1',function(){
+s.events.on('jcb - send price request lead submission').fire(7478910);
+});
+s.when('(bt_data(\x27url\x27).indexOf(\x22jcb.rmwd.us\x22) \x3e -1 || bt_data(\x27url\x27).indexOf(\x22jcbvirtualexperience.com\x22) \x3e -1)',function(){
+s.events.on('jcb - $1000 discount lead submission').fire(7478912);
+});
+s.when('(bt_data(\x27url\x27).indexOf(\x22jcb.com/en-us/dealer-locator\x22) \x3e -1 || bt_data(\x27url\x27).indexOf(\x22jcbvirtualexperience.com/\x22) \x3e -1)',function(){
+s.events.on('jcb - find a dealer search button click').fire(7478914);
+});
+s.domready(function(){
+s.tag('\x3cimg height\x3d\x221\x22 width\x3d\x221\x22 style\x3d\x22border-style:none;\x22 alt\x3d\x22\x22 src\x3d\x22https://insight.adsrvr.org/track/pxl/?adv\x3d4d0f14m\x26ct\x3d0:vhnba0k\x26fmt\x3d3\x22/\x3e',{tagId:7478552});
+s.tag('\x3c!-- Facebook Pixel Code --\x3e\n\x3cscript\x3e\n!function(f,b,e,v,n,t,s)\n{if(f.fbq)return;n\x3df.fbq\x3dfunction(){n.callMethod?\nn.callMethod.apply(n,arguments):n.queue.push(arguments)};\nif(!f._fbq)f._fbq\x3dn;n.push\x3dn;n.loaded\x3d!0;n.version\x3d\x272.0\x27;\nn.queue\x3d[];t\x3db.createElement(e);t.async\x3d!0;\nt.src\x3dv;s\x3db.getElementsByTagName(e)[0];\ns.parentNode.insertBefore(t,s)}(window, document,\x27script\x27,\n\x27https://connect.facebook.net/en_US/fbevents.js\x27);\nfbq(\x27init\x27, \x27801037890652045\x27);\nfbq(\x27track\x27, \x27PageView\x27);\n\x3c/script\x3e\n\n\x3c!-- End Facebook Pixel Code --\x3e',{tagId:7478900});
+s.tag('\x3cscript\x3e \n  fbq(\x27trackSingle\x27, \x27801037890652045\x27, \x27ViewContent\x27); \n\x3c/script\x3e\n',{tagId:7478913});
+});
+});

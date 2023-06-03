@@ -1,0 +1,33 @@
+<html>
+
+<head>
+
+</head>
+
+<body>
+  <div id="counter">0</div>
+  <button onclick="countUp()">up</button>
+  <button onclick="countDown()">down</button>
+
+
+  <script>
+    let count = 0;
+    function countUp()
+   {
+      count = count + 1;
+      updateCount();
+    }
+    function countDown() {
+      count = count - 1;
+      
+     updateCount();
+    }
+    function updateCount()
+    {
+      counter = document.getElementById('counter');
+      counter.innerText = count;
+    }
+  </script>
+</body>
+
+</html>

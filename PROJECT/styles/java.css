@@ -1,0 +1,42 @@
+.java{
+  background-color: rgb(235, 223, 223);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-left: 20px;
+  padding-right: 10px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+ 
+ 
+}
+.java-h1{
+  
+    
+  font-size: 70px;
+  
+  margin-top: 70px;
+  
+  
+
+}
+.java-h2{
+  
+  font-size: 18px;
+  margin-bottom: 30px;
+  
+
+}
+.learn-java{
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-radius: 30px;
+  border: none;
+  margin-bottom: 25px;
+}

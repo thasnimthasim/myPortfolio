@@ -1,0 +1,129 @@
+<bdo>
+  <head>
+<title>
+  todolist
+</title>
+  </head>
+  <body>
+   
+    <input id="todo-title" type="text"/>
+    <input id="date-picker" type="date"/>
+<button onclick="addTodo()">Add Todo</button>
+<div id="todo-list">
+
+</div>
+<script>
+  const todos = [{
+  title:'Get groceries',
+  dueDate:'2021-10-04'
+},{
+  title: 'wash a car',
+  dueDate: '2021-02-03'
+},{
+  title:'make a dinner',
+dueDate: '2021-03=04'
+}];
+
+
+
+render();
+
+function addTodo()
+{
+  const textbox = document.getElementById('todo-title');
+  const title = textbox.value;
+  
+  todos.push(title);
+  render();
+
+};
+
+function render(){
+  //reset out list
+  document.getElementById('todo-list').innerHTML = '';
+  todos.forEach(function(todoT
+  ){
+  let element = document.createElement('div');
+element.innerText = todoTitle;
+let todoList = document.getElementById('todo-list');
+todoList.appendChild(element);
+  
+});
+}
+</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

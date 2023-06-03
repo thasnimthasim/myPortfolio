@@ -1,0 +1,42 @@
+.w3css{
+  background-color: rgb(167, 243, 239);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-left: 20px;
+  padding-right: 10px;
+  margin-bottom: 35px;
+  border-radius: 5px;
+ 
+ 
+}
+.w3css-h1{
+  
+    
+  font-size: 70px;
+  
+  margin-top: 70px;
+  
+  
+
+}
+.w3css-h2{
+  
+  font-size: 18px;
+  margin-bottom: 30px;
+  
+
+}
+.learn-w3css{
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-radius: 30px;
+  border: none;
+  margin-bottom: 25px;
+}

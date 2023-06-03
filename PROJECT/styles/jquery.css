@@ -1,0 +1,44 @@
+.jquery{
+  background-color: rgb(243, 243, 153);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 10px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+ 
+ 
+}
+.jquery-h1{
+  
+    
+  font-size: 70px;
+  
+  margin-top: 70px;
+  
+  
+
+}
+.jquery-h2{
+  
+  font-size: 18px;
+  margin-bottom: 30px;
+  
+
+}
+.learn-jquery{
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 12px;
+  padding-bottom: 20px;
+  border-radius: 30px;
+  border: none;
+  margin-bottom: 35px;
+}

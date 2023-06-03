@@ -1,0 +1,29 @@
+<html>
+  <head>
+
+  </head>
+  <body>
+    <script>
+      foodArray = [{
+        name: 'Apple',
+        color: 'red'
+      },{
+        name: 'Egg',
+        color: 'white'
+      }];
+      function removedRed(foodArray)
+      {
+        return foodArray.filter(function(item)
+        {
+         return item.color !=='red';
+
+          
+        });
+        
+
+      }
+      removedRed(foodArray);
+    
+    </script>
+  </body>
+</html>

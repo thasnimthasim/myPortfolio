@@ -1,0 +1,65 @@
+.python{
+  background-color: rgb(245, 242, 243);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-left: -8px;
+  margin-right: -9px;
+}
+.python-h1{
+  
+    
+  font-size: 70px;
+  
+  margin-top: 90px;
+  margin-bottom: 25px;
+  
+
+}
+.python-h2{
+  
+  font-size: 18px;
+  margin-bottom: 30px;
+  
+
+}
+.learn-python{
+  background-color: rgb(45, 156, 91);
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-radius: 30px;
+  border: none;
+  margin-bottom: 25px;
+}
+
+.python-reference{
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-radius: 30px;
+  border: none;
+  margin-bottom: 25px;
+}
+.get-certified-python{
+  background-color: lightpink;
+  color:black;
+  font-weight: bold;
+  font-size: 16px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-radius: 30px;
+  border: none;
+  margin-bottom: 80px;
+}

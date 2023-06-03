@@ -1,0 +1,55 @@
+<html>
+  <head>
+
+  </head>
+  <body>
+    <script>
+      numArray = [1, 5, -2, 4, 3, 5, 0];
+      function max(numArray)
+      {
+        let max = -Infinity;
+        numArray.filter(function(num) {
+         if(num > max)
+         {
+          max = num;
+         }
+        });
+      return max;
+      }
+
+      function min(numArray)
+      {
+        let min = Infinity;
+        numArray.filter(function(num) {
+         if(num < min)
+         {
+          min = num;
+         }
+        });
+      return min;
+      }
+      
+      function minNonNegative(numArray)
+      {
+        let min = Infinity;
+        numArray.filter(function(num) {
+          if(num < 0) {
+            return;
+          }
+          
+          
+         else if(num < min)
+         {
+          min = num;
+         }
+        });
+      return min;
+      }
+     
+      max(numArray);
+      min(numArray);
+      minNonNegative(numArray);
+
+    </script>
+  </body>
+</html>

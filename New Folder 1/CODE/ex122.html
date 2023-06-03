@@ -1,0 +1,21 @@
+<html>
+  <head>
+
+  </head>
+  <body>
+    <script>
+      temps = [40, 67, 8, 29, 100, -3, 0];
+      
+      
+      function aboveFreezing(temps) {
+
+        const tempsAboveFreezing =temps.filter(function (temp) {
+    return temp > 32;
+  });
+
+  return tempsAboveFreezing;
+}
+aboveFreezing(temps);
+    </script>
+  </body>
+</html>
